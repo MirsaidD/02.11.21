@@ -1,18 +1,27 @@
- section {
+header {
+  display: flex;
+  
+}
+h1 {
+  flex-grow: 1;
+  text-align: center;
+}
+section {
   display: flex;
   flex-direction: column;
-  background-image: radial-gradient(blue,lightblue,purple);
+}
+footer {
+
 }
 .message {
   color: black;
   padding: 15px;
   gap: 15px;
   border-radius: 15px;
-  align-items: stretch;
+
   box-shadow: 0 0 10px black;
   width: 200px;
   margin: 10px;
-   background-image:  linear-gradient(/*360deg*/ to left, lightsteelblue,blue); 
 }
 .message.message-sent {
   background-color: rgb(255, 255, 255);
@@ -26,10 +35,3 @@
   border-bottom-right-radius: 0;
   align-self: flex-end;
 }
-.img {
-  width: 200px;
-  margin: 10px;
-  border-radius: 15px;
-  border: 2px solid #c4ff8a;
-  overflow: hidden;
-} 
